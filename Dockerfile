@@ -27,7 +27,7 @@ RUN echo '#!/bin/bash' > /start.sh && \
     echo 'auth.method = "token"' >> /start.sh && \
     echo "auth.token = \"\$TOKEN\"" >> /start.sh && \
     echo '[[proxies]]' >> /start.sh && \
-    echo 'name = "github-squid-6033-r109"' >> /start.sh && \
+    echo 'name = "github-squid-6033-r110"' >> /start.sh && \
     echo 'type = "tcp"' >> /start.sh && \
     echo 'localIP = "127.0.0.1"' >> /start.sh && \
     echo 'localPort = 3128' >> /start.sh && \
